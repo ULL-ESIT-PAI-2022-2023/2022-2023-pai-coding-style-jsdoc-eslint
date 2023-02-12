@@ -10,7 +10,7 @@ function DairyProduct() {}
  * @return {boolean}
  */
 DairyProduct.prototype.isSolid = function() {
-    throw new Error('must be implemented by subclass!');
+  throw new Error('must be implemented by subclass!');
 };
 
 /**
@@ -25,5 +25,7 @@ function Milk() {}
  * @return {boolean} Always returns false.
  */
 Milk.prototype.isSolid = function() {
-    return false;
+  return false;
 };
+
+
